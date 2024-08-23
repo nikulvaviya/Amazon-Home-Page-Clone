@@ -14,9 +14,9 @@ This project is a clone of the Amazon Home Page, built using HTML, CSS, and Java
 ### Home Page View
 ![Desktop View](./Manager/Assets/overview/Home-Page-1.png)
 
-![Desktop View](./Manager/Assets/overview/Home-Page-1.png)
+![Desktop View](./Manager/Assets/overview/Home-Page-2.png)
 
-![Desktop View](./Manager/Assets/overview/Home-Page-1.png)
+![Desktop View](./Manager/Assets/overview/Home-Page-3.png)
 
 ## Technologies Used
 
