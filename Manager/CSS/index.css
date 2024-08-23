@@ -1,0 +1,298 @@
+/* Google Fonts Link */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+body {
+  background-color: #dadada;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+/*======================================================== Navigation Bar Styling ========================================================*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #131921;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+
+.nav-country {
+  display: flex;
+  align-items: end;
+  margin-left: 15px;
+  font-size: 13px;
+  color: #c4c4c4;
+  cursor: pointer;
+}
+
+.nav-country h1 {
+  color: #fff;
+  font-size: 15px;
+}
+
+.navSearch {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  background-color: #fff;
+  color: gray;
+  max-width: 1080px;
+  border-radius: 5px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.navSearchCategory {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 5px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+}
+
+.navSearchInput {
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.navSearchIcon {
+  max-width: 41px;
+  padding: 8px;
+  background-color: #ffd64f;
+  border-radius: 0 4px 4px 0;
+}
+
+.navLanguage {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.navText {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.navText p {
+  font-size: 12px;
+}
+
+.navText h1 {
+  font-size: 16px;
+}
+
+.navCart {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.navBottom {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 8px 20px;
+  background-color: #232f3e;
+  color: #fff;
+  font-size: 15px;
+}
+
+.navBottom div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navBottom p {
+  cursor: pointer;
+}
+
+
+/*======================================================== Main Section ========================================================*/
+.headerSlider ul {
+  display: flex;
+  overflow-y: hidden;
+}
+
+.headerImage {
+  max-width: 100%;
+  mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+
+.headerSlider a {
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+  padding: 5vh 1vw;
+  background-color: #ffffff4f;
+  color: #0000007b;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.controlNext {
+  right: 0;
+
+}
+
+
+/*======================================================= Row Section =======================================================*/
+.boxRow {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-between;
+  margin: 20px 30px;
+}
+
+.boxCol img {
+  cursor: pointer;
+}
+
+.boxCol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 20px;
+  background-color: #fff;
+  max-width: 24%;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.boxCol a {
+  font-size: 15px;
+  color: #009999;
+  font-weight: 500;
+}
+
+.headerBox {
+  margin-top: -20vw;
+}
+
+.productSlider {
+  margin: 0 30px;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+.productSlider h2 {
+  margin-bottom: 25px;
+}
+
+.productSlider .products {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.productSlider .products img {
+  max-width: 225px;
+  max-height: 225px;
+  cursor: pointer;
+}
+
+.productSlider .products::-webkit-scrollbar {
+  display: none;
+}
+
+
+.productSliderWithPrice {
+  background-color: #fff;
+  margin: 0 30px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.productSliderWithPrice .products {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.productSliderWithPrice .products::-webkit-scrollbar {
+  display: none;
+}
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  min-width: 210px;
+  background: #fbfbfb;
+}
+
+.productCard img {
+  width: 125px;
+  margin: 0 50px;
+}
+
+.productOffer p {
+  background: #be0b3b;
+  color: #ffffff;
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin: 8px 0;
+  font-size: 13px;
+}
+
+.productOffer span {
+  color: #be0b3b;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.productPrice {
+  color: grey;
+  font-size: 13px;
+}
+
+.productCard h4 {
+  color: #525252;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+/* Footer Section */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background: #131921;
+  padding: 20px 60px;
+}

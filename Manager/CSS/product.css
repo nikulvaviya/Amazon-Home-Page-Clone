@@ -1,0 +1,33 @@
+body {
+  background-color: #ffffff !important;
+}
+
+/*===================== Header =====================*/
+.breadCrum {
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #565656;
+}
+
+/* Main Section */
+.productDisplay {
+  min-height: 100%;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.productDImage {
+  display: flex;
+  gap: 10px;
+}
+
+.productIcons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.productIcons img {
+  border: 1px solid;
+  border-radius: 7px;
+}
